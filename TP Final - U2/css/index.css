@@ -1,0 +1,151 @@
+*{outline: 1px solid green;
+}
+body{
+    margin: 0%;
+}
+/*Header*/
+header{
+    background-color: #d63031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 0px;
+    top: 1px;
+    width: 100%;
+    height: 120px;
+}
+.menu1{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+width: 150px;
+height: 100px;
+position: absolute;
+left: 4%;
+text-align: center;
+}
+.aheader{
+    background-color: #fdcb6e;
+    border-radius: 15px;
+    padding: 4px 15px 4px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 750;
+    color: #d63031;
+    margin: 5px 5px 0px 5px;
+}
+.img-header{
+    width: 3%;
+    position: absolute;
+    left: 50%;
+    top: 15px;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    left: 80%;
+    height: 100%;
+}
+.recurso{
+    background-color: #fdcb6e;
+    width: 100%;
+    height: 8px;
+    margin: 0px;
+    position: relative;
+    top: 60px;
+}
+
+/*Fondo Index*/
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.disciplina-fondo{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.fondo-index{
+width: 100%;
+}
+/*.enlace-index{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#fdcb6e;
+text-transform: uppercase;
+font-weight: 900;
+text-decoration: none;
+font-size: 32px;
+position: absolute;
+bottom: 100px;
+}*/
+
+#futbol{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#fdcb6e;
+text-transform: uppercase;
+font-weight: 900;
+text-decoration: none;
+font-size: 32px;
+position: absolute;
+top: 450px;
+left: 70px;
+padding: 10px 25px;
+background-color: #d63030b6;
+border-radius: 60px;
+}
+#hockey{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fdcb6e;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 32px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    padding: 10px 25px;
+    background-color: #d63030b6;
+    border-radius: 60px;
+}
+    #voleibol{
+    color:#fdcb6e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 32px;
+    position: absolute;
+    top: 450px;
+    left: 740px;
+    padding: 10px 25px;
+    background-color: #d63030b6;
+    border-radius: 60px;
+}
+#patin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fdcb6e;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+    top: 455px;
+    position: absolute;
+    padding: 10px 25px;
+    left: 1050px;
+    border-radius: 60px;
+    background-color: #d63030b6;
+}
+
